@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npx --prefix \"c:\\\\utube\\\\matply\" prisma init:*)",
+      "Bash(npx:*)",
+      "Bash(node -e:*)",
+      "Bash(npm run dev:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c \"taskkill /PID 28644 /F\")",
+      "Bash(cmd /c \"del c:\\\\utube\\\\matply\\\\.next\\\\dev\\\\lock 2>nul & cd c:\\\\utube\\\\matply && npm run dev\")",
+      "Bash(cmd /c \"del .next\\\\dev\\\\lock 2>nul\")",
+      "Bash(cmd /c \"cd /d c:\\\\utube\\\\matply && del .next\\\\dev\\\\lock 2>nul && npm run dev\")",
+      "Bash(pushd:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(node fix-jobs.js:*)",
+      "Bash(node check-dups.js:*)"
+    ]
+  }
+}
